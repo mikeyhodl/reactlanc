@@ -1,6 +1,26 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+
+
+import About from './About';
+import Bulk_SMS from './Bulk_SMS';
+import Contact from './Contact';
+import Home from './Home';
+import CCTV_installations from './CCTV_installations';
+// import Gallery from './Gallery';
+import Management_systems from './Management_systems';
+import Computer_accessories from './Computer_accessories';
+import Computer_solutions from './Computer_solutions';
+import Digital_marketing from './Digital_marketing';
+import Team from './Team';
+import Web_development from './Web_development';
+import Structured_cabling_and_networking from './Structured_cabling_and_networking';
+
+
 export default function Header() {
   return (
     <div>
+    <Router>
       <div
         id="header"
         className="section header-section header-section-2 transparent-header"
@@ -9,56 +29,48 @@ export default function Header() {
           {/* Header Wrap Start  */}
           <div className="header-wrap">
             <div className="header-logo">
-              <a href="./">
+              <Link to="/">
                 <img src="assets/images/logo.png" alt="" />
-              </a>
+              </Link>
             </div>
             <div className="header-menu header-menu-2 d-none d-lg-block">
               <ul className="main-menu">
                 <li className="active-menu">
-                  <a href="./">Home</a>
-                  {/* <ul class="sub-menu">
-                                  <li><a href="./">Home One</a></li>
-                                  <li class="active"><a href="index-2.html">Home Two</a></li>
-                                  <li><a href="index-3.html">Home Three</a></li>
-                                  <li><a href="index-4.html">Home Four</a></li>
-                                  <li><a href="index-5.html">Home Five</a></li>
-                                  <li><a href="index-6.html">Home Six</a></li>
-                              </ul> */}
+                  <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <a href="about.html">About Us</a>
+                  <Link to="/About">About Us</Link>
                 </li>
                 <li>
-                  <a href="javascript:;">Our Services</a>
+                  <Link to="/javascript:;">Our Services</Link>
                   <ul className="sub-menu">
                     <li>
-                      <a href="bulk-sms.html">Bulk SMS</a>
+                      <Link to="/Bulk_SMS">Bulk SMS</Link>
                     </li>
                     <li>
-                      <a href="management-systems.html">Management Systems</a>
+                      <Link to="/Management_systems">Management Systems</Link>
                     </li>
                     <li>
-                      <a href="computer-solutions.html">Computer Solutions</a>
+                      <Link to="/Computer_solutions">Computer Solutions</Link>
                     </li>
                     <li>
-                      <a href="computer-accessories.html">
+                      <Link to="/Computer_accessories">
                         Computer Accessories
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="CCTV-installations.html">CCTV Installtions</a>
+                      <Link to="/CCTV_installations">CCTV Installtions</Link>
                     </li>
                     <li>
-                      <a href="structured-cabling-and-networking.html">
+                      <Link to="/Structured_cabling_and_networking">
                         Structured Cabling and Networking
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="digital-marketing.html">Digital Marketing</a>
+                      <Link to="/Digital_marketing">Digital Marketing</Link>
                     </li>
                     <li>
-                      <a href="web-development.html">Web Development</a>
+                      <Link to="/Web_development">Web Development</Link>
                     </li>
                   </ul>
                 </li>
@@ -70,27 +82,18 @@ export default function Header() {
                   >
                     Blog
                   </a>
-                  {/* <ul class="sub-menu">
-                                  <li><a href="blog.html">Blog Grid</a></li>
-                                  <li><a href="blog-standard.html">Latest News</a></li>
-                                  <li><a href="blog-details.html">Blog Details</a></li>
-                              </ul> */}
                 </li>
                 <li>
-                  <a href="team.html">Our Team</a>
+                  <Link to="/Team">Our Team</Link>
                 </li>
                 <li>
-                  <a href="contact.html">Contact</a>
+                  <Link to="/Contact">Contact</Link>
                 </li>
               </ul>
             </div>
             {/* Header Meta Start */}
             <div className="header-meta">
-              {/* Header Search Start */}
-              {/* Header Search End */}
-              {/* Header Cart Start */}
-              {/* Header Cart End */}
-              {/* Header Info Start */}
+              
               <div className="header-info d-none d-md-flex">
                 <div className="info-icon">
                   <i className="fas fa-phone-alt" />
@@ -140,9 +143,9 @@ export default function Header() {
         <div className="offcanvas-header">
           {/* Offcanvas Logo Start */}
           <div className="offcanvas-logo">
-            <a href="./">
+            <Link to="/">
               <img src="assets/images/logo-white.png" alt="" />
-            </a>
+            </Link>
           </div>
           {/* Offcanvas Logo End */}
           <button
@@ -158,39 +161,39 @@ export default function Header() {
           <div className="offcanvas-menu">
             <ul className="main-menu">
               <li className="active-menu">
-                <a href="./">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="about.html">About Us</a>
+                <Link to="/About">About Us</Link>
               </li>
               <li>
-                <a href="javascript:;">Our Services</a>
+                <Link to="/javascript:;">Our Services</Link>
                 <ul className="sub-menu">
                   <li>
-                    <a href="bulk-sms.html">Bulk SMS</a>
+                    <Link to="/Bulk_SMS">Bulk SMS</Link>
                   </li>
                   <li>
-                    <a href="management-systems.html">Management Systems</a>
+                    <Link to="/Management_systems">Management Systems</Link>
                   </li>
                   <li>
-                    <a href="computer-solutions.html">Computer Solutions</a>
+                    <Link to="/Computer_solutions">Computer Solutions</Link>
                   </li>
                   <li>
-                    <a href="computer-accessories.html">Computer Accessories</a>
+                    <Link to="/Computer_accessories">Computer Accessories</Link>
                   </li>
                   <li>
-                    <a href="CCTV-installations.html">CCTV Installtions</a>
+                    <Link to="/CCTV_installations">CCTV Installtions</Link>
                   </li>
                   <li>
-                    <a href="structured-cabling-and-networking.html">
+                    <Link to="/Structured_cabling_and_networking">
                       Structured Cabling and Networking
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="digital-marketing.html">Digital Marketing</a>
+                    <Link to="/Digital-marketing">Digital Marketing</Link>
                   </li>
                   <li>
-                    <a href="web-development.html">Web Development</a>
+                    <Link to="/Web-development">Web Development</Link>
                   </li>
                 </ul>
               </li>
@@ -204,16 +207,31 @@ export default function Header() {
                 </a>
               </li>
               <li>
-                <a href="team.html">Our Team</a>
+                <Link to="/Team">Our Team</Link>
               </li>
               <li>
-                <a href="contact.html">Contact</a>
+                <Link to="/Contact">Contact</Link>
               </li>
             </ul>
           </div>
         </div>
         {/* Offcanvas Body End */}
       </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/About" element={<About />} />
+        <Route path="/Bulk_SMS" element={<Bulk_SMS />} />
+        <Route path="/Management_systems" element={<Management_systems />} />
+        <Route path="/Computer_solutions" element={<Computer_solutions />} />
+        <Route path="/Computer_accessories" element={<Computer_accessories />} />
+        <Route path="/CCTV_installations" element={<CCTV_installations />} />
+        <Route path="/Structured_cabling_and_networking" element={<Structured_cabling_and_networking />} />
+        <Route path="/Digital-marketing" element={<Digital_marketing />} />
+        <Route path="/Web-development" element={<Web_development />} />
+        <Route path="/Team" element={<Team />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
+      </Router>
     </div>
   );
 }

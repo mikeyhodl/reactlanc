@@ -1,4 +1,9 @@
-export default function App() {
+import { Link } from 'react-router-dom';
+
+import Faqs from './Faqs';
+import Privacy_policy from './Privacy_policy';
+import Support from './Support';
+export default function Footer() {
   return (
     <div
       className="section footer-section footer-section-2"
@@ -11,7 +16,7 @@ export default function App() {
             <div className="col-lg-3 col-sm-6">
               {/* Footer Widget Start */}
               <div className="footer-widget-about">
-                <a className="footer-logo" href="./">
+                <a className="footer-logo" href="/">
                   <img src="assets/images/logo.png" alt="Logo" />
                 </a>
                 <div className="widget-info widget-info-2">
@@ -61,15 +66,15 @@ export default function App() {
                 <div className="widget-link">
                   <ul className="link">
                     <li>
-                      <a href="terms-and-conditions.txt" target="_blank">
+                      <a href="/terms-and-conditions.txt" target="_blank">
                         Terms &amp; Conditions
                       </a>
                     </li>
                     <li>
-                      <a href="about.html">About Company</a>
+                      <a href="About">About Company</a>
                     </li>
                     <li>
-                      <a href="privacy-policy.html">Policy</a>
+                      <a href="Privacy_policy">Policy</a>
                     </li>
                   </ul>
                 </div>
@@ -83,16 +88,16 @@ export default function App() {
                 <div className="widget-link">
                   <ul className="link">
                     <li>
-                      <a href="bulk-sms.html">Bulk SMS</a>
+                      <a href="Bulk_sms">Bulk SMS</a>
                     </li>
                     <li>
-                      <a href="management-systems.html">Managment Systems</a>
+                      <a href="Management_systems">Managment Systems</a>
                     </li>
                     <li>
-                      <a href="computer-solutions.html">Computer Solutions</a>
+                      <a href="Computer_solutions">Computer Solutions</a>
                     </li>
                     <li>
-                      <a href="digital-marketing.html">Digital Marketing</a>
+                      <a href="Digital_marketing">Digital Marketing</a>
                     </li>
                   </ul>
                 </div>
@@ -106,10 +111,10 @@ export default function App() {
                 <div className="widget-link">
                   <ul className="link">
                     <li>
-                      <a href="support.html">Support</a>
+                      <a href="Support">Support</a>
                     </li>
                     <li>
-                      <a href="faqs.html">FAQS</a>
+                      <a href="Faqs">FAQS</a>
                     </li>
                   </ul>
                 </div>
