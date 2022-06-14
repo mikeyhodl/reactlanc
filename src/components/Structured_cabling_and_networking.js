@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function Structured_cabling_and_networking() {
   return (
     <div>

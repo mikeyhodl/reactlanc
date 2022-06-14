@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function Bulk_SMS() {
   return (
     <div>

@@ -1,3 +1,5 @@
+import React from 'react';
+
 export default function Computer_solutions() {
   return (
     <div>
