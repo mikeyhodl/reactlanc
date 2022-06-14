@@ -1,8 +1,8 @@
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
-import Faqs from './Faqs';
-import Privacy_policy from './Privacy_policy';
-import Support from './Support';
+// import Faqs from './Faqs';
+// import Privacy_policy from './Privacy_policy';
+// import Support from './Support';
 export default function Footer() {
   return (
     <div
