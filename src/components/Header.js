@@ -7,7 +7,7 @@ import Bulk_SMS from './Bulk_SMS';
 import Contact from './Contact';
 import Home from './Home';
 import CCTV_installations from './CCTV_installations';
-// import Gallery from './Gallery';
+import Gallery from './Gallery';
 import Management_systems from './Management_systems';
 import Computer_accessories from './Computer_accessories';
 import Computer_solutions from './Computer_solutions';
