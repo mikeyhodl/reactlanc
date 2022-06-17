@@ -4,7 +4,6 @@ import React from 'react';
 // import '../baguetteBox.css';
 // import '../bootstrap.css';
 // import { Helmet } from "react-helmet";
-
 export default function Gallery() {
   return (
     <div>
