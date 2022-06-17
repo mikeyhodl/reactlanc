@@ -72,6 +72,9 @@ export default function Header() {
                     <li>
                       <Link to="/Web_development">Web Development</Link>
                     </li>
+                    <li>
+                      <Link to="/Gallery">Gallery</Link>
+                    </li>
                   </ul>
                 </li>
                 <li>

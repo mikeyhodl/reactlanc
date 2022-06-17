@@ -3,14 +3,11 @@ import React from 'react';
 // import '../gallery.css';
 // import '../baguetteBox.css';
 // import '../bootstrap.css';
-import { Helmet } from "react-helmet";
+// import { Helmet } from "react-helmet";
 
 export default function Gallery() {
   return (
     <div>
-    <Helmet>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-      </Helmet>
       <div className="section about-section section-padding">
         <div className="container">
           {/* About Wrap Start */}
