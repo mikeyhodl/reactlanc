@@ -233,6 +233,7 @@ export default function Header() {
         <Route path="/Web_development" element={<Web_development />} />
         <Route path="/Team" element={<Team />} />
         <Route path="/Contact" element={<Contact />} />
+        <Route path="/Gallery" element={<Gallery />} />
       </Routes>
       </Router>
     </div>
