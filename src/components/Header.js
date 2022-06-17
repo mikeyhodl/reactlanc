@@ -42,7 +42,7 @@ export default function Header() {
                   <Link to="/About">About Us</Link>
                 </li>
                 <li>
-                  <Link to="/javascript:;">Our Services</Link>
+                  <Link to="/Bulk_SMS">Our Services</Link>
                   <ul className="sub-menu">
                     <li>
                       <Link to="/Bulk_SMS">Bulk SMS</Link>
@@ -190,10 +190,10 @@ export default function Header() {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/Digital-marketing">Digital Marketing</Link>
+                    <Link to="/Digital_marketing">Digital Marketing</Link>
                   </li>
                   <li>
-                    <Link to="/Web-development">Web Development</Link>
+                    <Link to="/Web_development">Web Development</Link>
                   </li>
                 </ul>
               </li>
