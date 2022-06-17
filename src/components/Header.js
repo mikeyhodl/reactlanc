@@ -195,6 +195,9 @@ export default function Header() {
                   <li>
                     <Link to="/Web_development">Web Development</Link>
                   </li>
+                  <li>
+                    <Link to="/Gallery">Gallery</Link>
+                  </li>
                 </ul>
               </li>
               <li>
@@ -226,8 +229,8 @@ export default function Header() {
         <Route path="/Computer_accessories" element={<Computer_accessories />} />
         <Route path="/CCTV_installations" element={<CCTV_installations />} />
         <Route path="/Structured_cabling_and_networking" element={<Structured_cabling_and_networking />} />
-        <Route path="/Digital-marketing" element={<Digital_marketing />} />
-        <Route path="/Web-development" element={<Web_development />} />
+        <Route path="/Digital_marketing" element={<Digital_marketing />} />
+        <Route path="/Web_development" element={<Web_development />} />
         <Route path="/Team" element={<Team />} />
         <Route path="/Contact" element={<Contact />} />
       </Routes>
