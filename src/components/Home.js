@@ -42,7 +42,7 @@ export default function App() {
                   </div>
                   <div className="service-content">
                     <h3 className="title"><a href="bulk-sms.html">Bulk <br /> SMS</a></h3>
-                    <p>We provide the most responsive and functional IT design for companies and businesses worldwide.</p>
+                    <p>Our powerful SMS API offers a platform for you to send productive text messages to your customers, patients, students and more.</p>
                   </div>
                 </div>
                 {/* Service Item End */}
@@ -59,7 +59,7 @@ export default function App() {
                   </div>
                   <div className="service-content">
                     <h3 className="title"><a href="management-systems.html">Management <br />  Systems</a></h3>
-                    <p>We provide the most responsive and functional IT design for companies and businesses worldwide.</p>
+                    <p>Our team has extensive experience in building custom Management systems that ranges from retail, healthcare to ERP systems.</p>
                   </div>
                 </div>
                 {/* Service Item End */}
@@ -76,7 +76,7 @@ export default function App() {
                   </div>
                   <div className="service-content">
                     <h3 className="title"><a href="computer-solutions.html">Computer <br /> Solutions</a></h3>
-                    <p>We provide the most responsive and functional IT design for companies and businesses worldwide.</p>
+                    <p>We offer a variety of computer solution ranging from: Antivirus installation, Software and System upgrades and Operating system installation</p>
                   </div>
                 </div>
                 {/* Service Item End */}
@@ -93,7 +93,7 @@ export default function App() {
                   </div>
                   <div className="service-content">
                     <h3 className="title"><a href="digital-marketing.html">Digital <br /> Marketing</a></h3>
-                    <p>We provide the most responsive and functional IT design for companies and businesses worldwide.</p>
+                    <p>We offer digital marketing at an Affordable market price. We do market : Businesses, Institutions, Events, Personalities, products and Services</p>
                   </div>
                 </div>
                 {/* Service Item End */}

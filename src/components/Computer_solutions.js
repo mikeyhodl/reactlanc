@@ -38,6 +38,7 @@ export default function Computer_solutions() {
                       <strong>Software and System upgrades</strong>
                       <strong>Account recovery</strong>
                       <strong>Data Recovery</strong>
+                      <br />
                       <strong>Operating system installation :</strong>
                     </strong></p><ul><strong>
                       <li>Windows 11</li>
