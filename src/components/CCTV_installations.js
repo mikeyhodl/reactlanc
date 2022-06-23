@@ -31,8 +31,13 @@ export default function CCTV_installations() {
                 <div className="about-content">
                   <div className="section-title">
                     <h3 className="sub-title">CCTV installation</h3>
-                    <h2 className="title">We offer exceptional cctv installation services to protect people, property and assets. With our service, we provide a solution to possible danger, damage loss and criminal activities against with you premises.</h2>
+                    <h2 className="title">We offer exceptional cctv installation services to protect people, property and assets. </h2>
                   </div>
+                  <p>
+                  <strong>
+                  With our service, we provide a solution to possible danger, damage loss and criminal activities against with you premises.
+                  </strong>
+                  </p>
                   <p>LancolaTech has a group of expert Technicians in CCTV camera installation. We build reliable CCTV Network in  Hospitals,
                     Schools, Offices and Company premises. </p>
                 </div>
