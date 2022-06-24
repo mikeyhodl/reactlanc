@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { Link } from 'react-router-dom';
+
 export default function App() {
   return (
     <div>
@@ -41,7 +43,7 @@ export default function App() {
                     <img src="assets/images/service/service-1.png" alt="" />
                   </div>
                   <div className="service-content">
-                    <h3 className="title"><a href="bulk-sms.html">Bulk <br /> SMS</a></h3>
+                    <h3 className="title"><Link to="/bulk_sms">Bulk <br /> SMS</Link></h3>
                     <p>Our powerful SMS API offers a platform for you to send productive text messages to your customers, patients, students and more.</p>
                   </div>
                 </div>
@@ -58,7 +60,7 @@ export default function App() {
                     <img src="assets/images/service/service-2.png" alt="" />
                   </div>
                   <div className="service-content">
-                    <h3 className="title"><a href="management-systems.html">Management <br />  Systems</a></h3>
+                    <h3 className="title"><Link to="/management_systems">Management <br />  Systems</Link></h3>
                     <p>Our team has extensive experience in building custom Management systems that ranges from retail, healthcare to ERP systems.</p>
                   </div>
                 </div>
@@ -75,7 +77,7 @@ export default function App() {
                     <img src="assets/images/service/service-3.png" alt="" />
                   </div>
                   <div className="service-content">
-                    <h3 className="title"><a href="computer-solutions.html">Computer <br /> Solutions</a></h3>
+                    <h3 className="title"><Link to="/computer_solutions">Computer <br /> Solutions</Link></h3>
                     <p>We offer a variety of computer solution ranging from: Antivirus installation, Software and System upgrades and Operating system installation</p>
                   </div>
                 </div>
@@ -92,7 +94,7 @@ export default function App() {
                     <img src="assets/images/service/service-4.png" alt="" />
                   </div>
                   <div className="service-content">
-                    <h3 className="title"><a href="digital-marketing.html">Digital <br /> Marketing</a></h3>
+                    <h3 className="title"><Link to="/digital_marketing">Digital <br /> Marketing</Link></h3>
                     <p>We offer digital marketing at an Affordable market price. We do market : Businesses, Institutions, Events, Personalities, products and Services</p>
                   </div>
                 </div>
