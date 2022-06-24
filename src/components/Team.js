@@ -99,6 +99,22 @@ export default function Team() {
                         <li><a href="https://github.com"><i className="fab fa-github" /></a></li>
                       </ul>
                     </div>
+                    <h3 className="name"><a href="#">Vincent Tulus</a></h3>
+                    <span className="designation">Developer, LancolaTech Company</span>
+                  </div>
+                </div>
+                {/* Single Team Start */}
+                <div className="single-team">
+                  <div className="team-img">
+                    <a href="#"><img src="assets/images/team/team-5.jpg" alt="" /></a>
+                  </div>
+                  <div className="team-content">
+                    <div className="team-social">
+                      <ul className="social">
+                        <li><a href="https://twitter.com"><i className="fab fa-twitter" /></a></li>
+                        <li><a href="https://github.com"><i className="fab fa-github" /></a></li>
+                      </ul>
+                    </div>
                     <h3 className="name"><a href="#">Derrick Otieno</a></h3>
                     <span className="designation">CCTV Technician, LancolaTech Company</span>
                   </div>
