@@ -39,41 +39,41 @@ export default function Header() {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/About">About Us</Link>
+                  <Link to="/about">About Us</Link>
                 </li>
                 <li>
-                  <Link to="/Bulk_SMS">Our Services</Link>
+                  <Link to="/bulk_sms">Our Services</Link>
                   <ul className="sub-menu">
                     <li>
-                      <Link to="/Bulk_SMS">Bulk SMS</Link>
+                      <Link to="/bulk_sms">Bulk SMS</Link>
                     </li>
                     <li>
-                      <Link to="/Management_systems">Management Systems</Link>
+                      <Link to="/management_systems">Management Systems</Link>
                     </li>
                     <li>
-                      <Link to="/Computer_solutions">Computer Solutions</Link>
+                      <Link to="/computer_solutions">Computer Solutions</Link>
                     </li>
                     <li>
-                      <Link to="/Computer_accessories">
+                      <Link to="/computer_accessories">
                         Computer Accessories
                       </Link>
                     </li>
                     <li>
-                      <Link to="/CCTV_installations">CCTV Installtions</Link>
+                      <Link to="/cctv_installations">CCTV Installtions</Link>
                     </li>
                     <li>
-                      <Link to="/Structured_cabling_and_networking">
+                      <Link to="/structured_cabling_and_networking">
                         Structured Cabling and Networking
                       </Link>
                     </li>
                     <li>
-                      <Link to="/Digital_marketing">Digital Marketing</Link>
+                      <Link to="/digital_marketing">Digital Marketing</Link>
                     </li>
                     <li>
-                      <Link to="/Web_development">Web Development</Link>
+                      <Link to="/web_development">Web Development</Link>
                     </li>
                     <li>
-                      <Link to="/Gallery">Gallery</Link>
+                      <Link to="/gallery">Gallery</Link>
                     </li>
                   </ul>
                 </li>
@@ -87,10 +87,10 @@ export default function Header() {
                   </a>
                 </li>
                 <li>
-                  <Link to="/Team">Our Team</Link>
+                  <Link to="/team">Our Team</Link>
                 </li>
                 <li>
-                  <Link to="/Contact">Contact</Link>
+                  <Link to="/contact">Contact</Link>
                 </li>
               </ul>
             </div>
